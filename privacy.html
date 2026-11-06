@@ -9,12 +9,12 @@
 <body>
 <header>
   <h1>Privacy Policy</h1>
-  <p>Milkmaxxer for iOS · Effective October 21, 2026</p>
+  <p>Milkmaxxer for iPhone and Android · Effective November 6, 2026</p>
 </header>
 <main>
   <p class="nav"><a href="index.html">← Milkmaxxer</a></p>
   <div class="card">
-    <p><strong>The short version:</strong> Milkmaxxer has no servers, no accounts, no analytics and no ads. Your data stays on your device and in your own iCloud account. We cannot see it.</p>
+    <p><strong>The short version:</strong> Milkmaxxer has no servers, no accounts, no analytics and no ads. Your data stays on your device and in your own cloud backup: iCloud on iPhone, your Google account on Android. We cannot see it.</p>
   </div>
 
   <h2>What the app stores</h2>
@@ -28,15 +28,17 @@
   <h2>Where it's stored</h2>
   <ul>
     <li><strong>On your device.</strong> Always.</li>
-    <li><strong>In your iCloud account</strong>, if you're signed in: Apple's CloudKit private database and iCloud key-value storage, so your other devices see the same data. This is governed by Apple's iCloud terms. The developer has no access to it.</li>
-    <li><strong>Shared fridges:</strong> when you share a fridge, its stock and activity are stored in the owner's iCloud and made available to the people they invite, through Apple's CloudKit sharing. Those people see what everyone in the fridge buys and finishes, plus the display name each person chose. Leaving a fridge or stopping sharing removes that access.</li>
+    <li><strong>iPhone: in your iCloud account</strong>, if you're signed in: Apple's CloudKit private database and iCloud key-value storage, so your other devices see the same data. This is governed by Apple's iCloud terms. The developer has no access to it.</li>
+    <li><strong>iPhone: shared fridges.</strong> When you share a fridge, its stock and activity are stored in the owner's iCloud and made available to the people they invite, through Apple's CloudKit sharing. Those people see what everyone in the fridge buys and finishes, plus the display name each person chose. Leaving a fridge or stopping sharing removes that access.</li>
+    <li><strong>Android: in your Google account's device backup</strong>, if backup is turned on in your phone's settings. Android backs up the app's data and restores it when you set up a new phone. This is governed by Google's terms. The developer has no access to it. Shared fridges aren't available on Android yet.</li>
   </ul>
 
   <h2>Location</h2>
-  <p>With your permission, the app uses your location while it's open to show nearby stores and to suggest which store you're at when you log a purchase. The last known location is kept on the device only, to name the closest store in a running-low alert. Location is never sent to the developer or anyone else.</p>
+  <p>With your permission, the app uses your location while it's open to show nearby stores and to suggest which store you're at when you log a purchase. The last known location is kept on the device only, to name the closest store in a running-low alert. Your location is never sent to the developer.</p>
+  <p>To find stores near you, the app sends a search to a map service: Apple Maps on iPhone, and Google Maps Platform (Maps SDK and Places API) on Android. Those requests include your location and are covered by <a href="https://www.apple.com/legal/privacy/">Apple's</a> or <a href="https://policies.google.com/privacy">Google's</a> privacy policy.</p>
 
   <h2>Notifications</h2>
-  <p>Running-low and sell-by reminders are scheduled locally on your device. No push notification service of ours is involved; silent iCloud pushes are used by Apple to keep your devices in sync.</p>
+  <p>Running-low and sell-by reminders are scheduled locally on your device. No push notification service of ours is involved. On iPhone, Apple uses silent iCloud pushes to keep your devices in sync.</p>
 
   <h2>What we don't do</h2>
   <ul>
@@ -46,7 +48,7 @@
   </ul>
 
   <h2>Deleting your data</h2>
-  <p>Settings → "Delete all entries" removes your logs and the stock in fridges you own (also from iCloud). Deleting the app removes local data. To remove iCloud data entirely, use Settings → Apple Account → iCloud → Manage Storage on your device.</p>
+  <p>Settings → "Delete all entries" removes your logs and the stock in fridges you own (on iPhone, also from iCloud). Deleting the app removes local data. To remove cloud copies entirely: on iPhone, use Settings → Apple Account → iCloud → Manage Storage; on Android, delete the device backup under Backups in Google One or Google Drive.</p>
 
   <h2>Children</h2>
   <p>The app is rated 4+ and doesn't knowingly collect anything from anyone, children included.</p>
